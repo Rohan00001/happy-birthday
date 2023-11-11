@@ -1,10 +1,39 @@
 body {
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("agunDa.jpeg") no-repeat;
+  margin: 0;
   padding: 0;
-  background: #fff;
   font-size: 12px;
-  overflow: auto;
+  overflow: hidden;
+
 }
+
+#loveHeart {
+  background: transparent;
+  background: url("giphy.gif") no-repeat center;
+}
+#copyright {
+  font-family: "Montserrat", sans-serif;
+}
+#copyright a {
+  text-decoration: none;
+}
+#copyright a:hover {
+  text-decoration: none;
+  color: royalblue;
+}
+#hbd_song {
+  display: none;
+}
+#disc {
+  color: lightgray;
+  font-weight: bold;
+  font-size: 13px;
+}
+
 
 #loveHeart {
   float: left;
